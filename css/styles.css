@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-h1, h2, h3, h4, h5, h6 p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -65,6 +65,7 @@ img {
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -89,11 +90,16 @@ img {
 .logo-link {
   margin-right: 93px;
   font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
   text-decoration: none;
+}
+
+.logo-section {
+  border: 1px solid #ececec;
 }
 
 .logo-link-footer {
@@ -182,7 +188,6 @@ img {
 }
 
 .hero-title {
-  display: flex;
   width: 696px;
   text-align: center;
   margin: 0 auto;
@@ -200,7 +205,7 @@ img {
   min-width: 200px;
   min-height: 50px;
   padding: 9px 31px;
-  border: 0;
+  border: 0px;
   display: flex;
   margin: 0 auto;
 
@@ -232,12 +237,10 @@ img {
 
 .spesials-list {
   display: flex;
-  margin: 0 auto;
   gap: var(--indent);
 }
 
 .spesials-item {
-  margin: 0 auto;
   width: 270px;
 }
 
@@ -250,10 +253,14 @@ img {
 }
 
 .spesials-text {
-  gap: var(--indent);
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.service-section {
+  padding-bottom: 94px;
 }
 
 /*team*/
@@ -292,12 +299,12 @@ img {
   text-align: center;
   color: var(--secondary-text-color);
 }
-
-/*portfolio styles*/
+ 
 /*buttons*/
 .btn-item {
   cursor: pointer;
 }
+
 .btn-list {
   font-family: inherit;
 }
@@ -322,11 +329,6 @@ img {
 }
 
 /*projects*/
-.portfolio-projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .project-wrapper {
   border-top: none;
   padding-top: 20px;
@@ -336,6 +338,7 @@ img {
 }
 
 .project-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -413,6 +416,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 
 .btn-portfolio-item .current {
